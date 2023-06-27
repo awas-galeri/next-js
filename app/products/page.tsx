@@ -1,6 +1,7 @@
 import AddProduct from "./addProduct";
 import DeleteProduct from "./deleteProduct";
 import UpdateProduct from "./updateProduct";
+import ReadProduct from "./readProduct";
 
 type Product = {
   id: number;
@@ -47,6 +48,8 @@ export default async function ProductList() {
                 <td>{product.name}</td>
                 <td>{product.price}</td>
                 <td className="flex">
+                  <ReadProduct {...product} />
+                  &nbsp;&nbsp;
                   <UpdateProduct {...product} />
                   &nbsp;&nbsp;
                   <DeleteProduct {...product} />
