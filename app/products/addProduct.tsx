@@ -36,7 +36,7 @@ export default function AddProduct() {
 
   return (
     <div>
-      <button className="btn btn-neutral" onClick={handleChange}>
+      <button className="btn btn-neutral btn-sm" onClick={handleChange}>
         Add New
       </button>
       <input

@@ -32,7 +32,7 @@ export default async function ProductList() {
         <AddProduct />
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <table className="table max-w-lg">
+        <table className="table max-w-lg text-center">
           <thead>
             <tr>
               <th>No</th>
