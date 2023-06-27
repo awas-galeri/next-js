@@ -36,7 +36,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/dashboard">Dashboard</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
             <Link href="/products">Products</Link>

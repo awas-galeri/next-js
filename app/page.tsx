@@ -9,7 +9,8 @@ export default function Home() {
       }}
     >
       <h2 style={{ marginTop: "25px" }}>
-        Ini adalah Home dari folder <b>/app</b>
+        Ini adalah halaman Home dari folder{" "}
+        <span className="btn btn-sm lowercase">/app</span>
       </h2>
     </div>
   );
