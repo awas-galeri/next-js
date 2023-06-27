@@ -38,6 +38,9 @@ export default function layout({ children }: { children: React.ReactNode }) {
           <li>
             <Link href="/dashboard">Dashboard</Link>
           </li>
+          <li>
+            <Link href="/products">Products</Link>
+          </li>
           <li
             style={{ cursor: "pointer" }}
             onClick={() => onClickUrl("/setting")}

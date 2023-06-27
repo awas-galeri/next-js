@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "name": "Product 2",
+      "name": "Product 2 Update",
       "price": 200
     },
     {
@@ -17,19 +17,9 @@
       "price": 300
     },
     {
-      "id": 4,
-      "name": "Product 4",
-      "price": 400
-    },
-    {
-      "title": "Tambah Produk",
-      "price": "1200",
+      "name": "New Product",
+      "price": "0",
       "id": 5
-    },
-    {
-      "title": "Test Lagi",
-      "price": "200",
-      "id": 6
     }
   ]
 }

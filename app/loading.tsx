@@ -1,3 +1,5 @@
 export default function Loading() {
-  return <p>Loading...</p>;
+  return (
+    <p style={{ display: "flex", justifyContent: "center" }}>Loading...</p>
+  );
 }
