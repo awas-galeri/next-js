@@ -1,10 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
       "name": "Product 1",
       "price": 100,
-      "title": "Test"
+      "id": 1
     },
     {
       "name": "Product 2",
