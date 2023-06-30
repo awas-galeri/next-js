@@ -7,6 +7,10 @@ To get started, run:
 ```bash
 npm run dev
 ```
+After that, run:
+```bash
+json-server -w db.json -p 5000
+```
 
 ## Final Steps
 
