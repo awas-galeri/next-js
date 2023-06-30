@@ -22,7 +22,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body>
-        <ul
+        {/* <ul
           style={{
             display: "flex",
             justifyContent: "center",
@@ -31,23 +31,30 @@ export default function layout({ children }: { children: React.ReactNode }) {
             color: "blue",
             fontWeight: "bold",
           }}
-        >
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-          <li>
-            <Link href="/products">Products</Link>
-          </li>
-          <li
+        > */}
+        <div className="navbar bg-base-100 flex justify-center">
+          <div className="navbar-center">
+            <a href="/" className="btn btn-ghost normal-case text-xl">
+              Home
+            </a>
+            <a href="/about" className="btn btn-ghost normal-case text-xl">
+              About
+            </a>
+            <a href="/products" className="btn btn-ghost normal-case text-xl">
+              Products
+            </a>
+            <a href="/setting" className="btn btn-ghost normal-case text-xl">
+              Settings
+            </a>
+          </div>
+        </div>
+        {/* <li
             style={{ cursor: "pointer" }}
             onClick={() => onClickUrl("/setting")}
           >
             Setting
-          </li>
-        </ul>
+          </li> */}
+        {/* </ul> */}
         {children}
       </body>
     </html>
