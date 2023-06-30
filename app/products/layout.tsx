@@ -10,7 +10,7 @@ export default function layout({ children }: { children: React.ReactNode }) {
           marginTop: "25px",
         }}
       >
-        <p>Ini layout Products</p>
+        {/* <p>Ini layout Products</p> */}
       </div>
       {children}
     </main>
