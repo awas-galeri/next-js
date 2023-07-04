@@ -8,12 +8,9 @@ export default function Test() {
         </div>
       </div>
       <div className="mockup-phone bg-error border-error">
-        {/* <div className="camera"></div> */}
-        {/* <div className="display"> */}
         <div className="artboard artboard-demo phone-1 bg-error">
           Background Test
         </div>
-        {/* </div> */}
       </div>
     </section>
   );
