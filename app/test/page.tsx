@@ -1,14 +1,19 @@
 export default function Test() {
   return (
     <section className="flex justify-center">
-      <div
-        tabIndex={0}
-        className="collapse border border-base-300 bg-base-200 w-8/12"
-      >
-        <div className="collapse-title text-xl font-medium">
-          <h3 className="text-center">Test</h3>
+      <div className="mockup-phone border-error">
+        <div className="camera"></div>
+        <div className="display">
+          <div className="artboard artboard-demo phone-1">Test</div>
         </div>
-        <div className="collapse-content"></div>
+      </div>
+      <div className="mockup-phone bg-error border-error">
+        {/* <div className="camera"></div> */}
+        {/* <div className="display"> */}
+        <div className="artboard artboard-demo phone-1 bg-error">
+          Background Test
+        </div>
+        {/* </div> */}
       </div>
     </section>
   );
