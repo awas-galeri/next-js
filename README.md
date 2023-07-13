@@ -2,6 +2,11 @@
 
 🎉 Congratulations, your project was successfully generated with [Create Next Stack](https://www.create-next-stack.com/)!
 
+If this program not running:
+
+```bash
+npm install
+```
 To get started, run:
 
 ```bash
@@ -10,6 +15,10 @@ npm run dev
 After that, run:
 ```bash
 json-server -w db.json -p 5000
+```
+or:
+```bash
+npx json-server -w db.json -p 5000
 ```
 
 ## Final Steps
